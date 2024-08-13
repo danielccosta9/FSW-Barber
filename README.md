@@ -1,36 +1,21 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Sistema de Agendamento para Barbearias
 
-## Getting Started
+Este é um sistema web desenvolvido para gerenciamento de agendamentos em barbearias. O sistema permite que os usuários agendem horários, vejam os horários disponíveis, consultem barbearias disponíveis e verifiquem os preços dos serviços. O projeto foi desenvolvido utilizando Next.js, com autenticação de usuários através do Next-Auth utilizando Google OAuth.
 
-First, run the development server:
+## Funcionalidades
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Agendamento de Horários**: Permite que os usuários agendem horários em barbearias disponíveis.
+- **Consulta de Disponibilidade**: Verifique a disponibilidade de horários antes de realizar um agendamento.
+- **Verificação de Barbearias**: Consulte as barbearias disponíveis para agendamento.
+- **Visualização de Preços**: Consulte os preços dos serviços oferecidos pelas barbearias.
+- **Autenticação via Google**: Autenticação segura usando Google OAuth através do Next-Auth.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tecnologias Utilizadas
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- **Frontend**: [Next.js](https://nextjs.org/)
+- **Autenticação**: [Next-Auth](https://next-auth.js.org/) com OAuth do Google
+- **Estilização**: [Tailwind CSS](https://tailwindcss.com/) (ou substitua pelo framework CSS utilizado)
+- **Banco de Dados**: [PostgreSQL](https://www.postgresql.org/) hospedado no [NeonDB](https://neon.tech/)
+- **ORM**: [Prisma](https://www.prisma.io/)
+- **Conexão com o Banco**: [Prisma Studio](https://www.prisma.io/studio) para gerenciar e conectar ao NeonDB
+- **Hospedagem**: [FSW-Barber]()
